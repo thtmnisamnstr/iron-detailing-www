@@ -9,7 +9,7 @@ export default function Nav({logo}) {
   return (
     <nav 
       className={`${navStyle} on-${slug}`}>
-      <a href="/" className="pa3 db mr4 h-100 w3 flex-none">
+      <a href="/" className="pa3 db mr4 h-100 w4 flex-none">
       <img src={logo} alt="Iron Details logo" className="br0 db mb0 w-100"/>
       </a>
       <ul className="flex b grey-3">
@@ -19,7 +19,7 @@ export default function Nav({logo}) {
             return (
               <li className={mcls} key={m.page}>
                 <Link href={m.url}>
-                  <a target={m.target} className="pa3 no-underline db">{m.page}</a>
+                  <a target={m.target} className="pa3 w4 no-underline db">{m.page}</a>
                 </Link>
               </li>
             )
