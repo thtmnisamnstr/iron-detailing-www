@@ -5,11 +5,12 @@ You can preview this site at [irondetailing.netlify.app](https://irondetailing.n
 
 
 ## How to Use
+  * Install [Earthly](https://earthly.dev/get-earthly).
   * Clone the repo and cd into its folder.
   * Run `npm install`.
-  * To run rtdl's website locally in dev mode, run `npm run dev`. You can 
+  * To run rtdl's website locally in dev mode, run `npm install` and then `npm run dev`. You can 
     view the site at [http://localhost:3000/](http://localhost:3000/).
-  * To build the website, run `npm run build` and it will output to the `.next` folder.
+  * To build the website, run `earthly +build` to validate the build and `earthly --push +deploye` to deploy it to Netlify.
 
 
 ## License 🤝

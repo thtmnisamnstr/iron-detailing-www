@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-black ph3 pv4 white">
       <div className="mw7 center pt3">
         <div className="measure-narrow center mb4">
-          <img className="db w4 center mb4 br0" src="/img/logo.svg" alt="Kaldi logo" />
+          <img className="db w4 center mb4 br0" src="/img/logo.png" alt="Kaldi logo" />
         </div>
         <div className="flex-ns justify-between">
           <div>

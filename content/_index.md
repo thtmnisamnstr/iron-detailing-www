@@ -11,18 +11,18 @@ intro:
     text: "We offer several high quality detailing packages to help you clean, decontaminate, and protect your vehicle."
 products1:
     - heading: "Steel Detail"
-      text: "Full detail inside and out, 2-step paint decontamination, tire shine, plastic and vinyl recovery, and ceramic hand wax application. Optional up-charge for interior shampoo."
+      text: "Hand foam wash, paint decontamination, clay bar, paint correction polish, ceramic hand wax, tire shine, wheel cleaning, interior detail, interior vacuum, plastic and vinyl recovery. Additional cost for interior shampoo."
     - heading: "Iron Detail"
-      text: "Full detail inside and out, paint decontamination, tire shine, plastic and vinyl recovery, and hand wax application. Optional up-charge for interior shampoo."
+      text: "Hand foam wash, paint decontamination, hand wax, tire shine, wheel cleaning, interior detail, interior vacuum, plastic and vinyl recovery. Additional cost for interior shampoo."
 products2:
     - heading: "Carbon Detail"
-      text: "Full detail inside and out, paint decontamination, tire shine, plastic and vinyl recovery, and spray wax application. Optional up-charge for interior shampoo."
+      text: "Hand foam wash, paint decontamination, spray wax, tire shine, wheel cleaning, interior detail, interior vacuum, plastic and vinyl recovery. Additional cost for interior shampoo."
     - heading: "Express Detail"
-      text: "Regular car wash, a QUICK vacuum, and a QUICK interior wipe down."
+      text: "Hand foam wash, spray wax, tire shine, wheel cleaning, interior vacuum, interior wipe down, plastic and vinyl recovery."
 products3:
     - heading: "Exterior Detail"
-      text: "Full detail outside ONLY, paint decontamination, plastic and Vinyl recovery, and spray wax application. Optional up-charges for hand wax upgrade and paint decontamination upgrade."
+      text: "Hand foam wash, spray wax, tire shine, wheel cleaning, plastic and vinyl recovery. Additional cost for hand wax and clay bar upgrades."
     - heading: "Interior Detail"
-      text: "Full detail inside ONLY! Optional up-charge for interior shampoo. "
+      text: "Full interior detail, interior vacuum. Additional cost for interior shampoo."
 ---
 
