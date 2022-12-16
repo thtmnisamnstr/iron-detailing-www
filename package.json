@@ -2,30 +2,34 @@
   "name": "next-dev-studio",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "build": "npm run lint && next build",
+    "serve": "next start",
+    "lint": "next lint --fix --dir components --dir content --dir data --dir lib --dir pages --dir public --dir styles",
+    "upgrade-deps": "taze major -w",
+    "check-deps": "npm-check"
   },
   "dependencies": {
-    "classnames": "2.2.6",
-    "date-fns": "2.16.1",
-    "gray-matter": "4.0.2",
+    "classnames": "2.3.2",
+    "date-fns": "2.29.3",
+    "gray-matter": "4.0.3",
     "next": "latest",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "remark": "13.0.0",
-    "remark-html": "^13.0.2"
+    "npm-check": "^6.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark": "14.0.2",
+    "remark-html": "^15.0.1",
+    "taze": "^0.8.4"
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^4.0.3",
-    "autoprefixer": "^10.2.1",
-    "eslint": "^8.22.0",
-    "eslint-config-next": "12.2.5",
-    "postcss": "^8.2.4",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.29.0",
+    "eslint-config-next": "13.0.7",
+    "postcss": "^8.4.20",
     "postcss-flexbugs-fixes": "^5.0.2",
-    "postcss-import": "^12.0.1",
-    "postcss-preset-env": "^6.7.0"
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^7.8.3"
   },
   "license": "MIT"
 }

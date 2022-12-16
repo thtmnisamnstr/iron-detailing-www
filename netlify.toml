@@ -10,3 +10,22 @@ from = "/_next/static/*"
 to = "/static/:splat"
 status = 200
 force = true
+
+# Netlify redirects to point site to the maintenance page / take it off line
+[[redirects]]
+from = "/"
+to = "/maintenance/"
+status = 200
+force = true
+
+[[redirects]]
+from = "/services"
+to = "/maintenance/"
+status = 200
+force = true
+
+[[redirects]]
+from = "/team"
+to = "/maintenance/"
+status = 200
+force = true

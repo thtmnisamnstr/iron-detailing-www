@@ -10,14 +10,12 @@ deps:
     # Install the Netlify CLI (local) and Netlify Next.js plugin and required packages
     RUN npm install netlify-cli --save-dev
     RUN npm install @netlify/plugin-nextjs --save-dev
-    RUN npm install
-    # Copy netlify.toml - required for building and deploying to Netlify
-    COPY netlify.toml ./
+    RUN npm install --force
+    # Copy files and directories required for building
+    COPY .eslintrc.json netlify.toml next.config.js postcss.config.js ./
 
 build:
     FROM +deps
-    # Copy files and directories required for building
-    COPY .eslintrc.json postcss.config.js ./
     COPY --dir components content data lib pages public styles ./
     # Build site using NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID secrets
     RUN --secret NETLIFY_AUTH_TOKEN --secret NETLIFY_SITE_ID netlify build --context production
